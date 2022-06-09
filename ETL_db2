@@ -1,0 +1,31 @@
+
+-- CREATE TABLE unemp (
+--  	Location VARCHAR(255) PRIMARY KEY, 
+-- 	State VARCHAR(255) , 
+--  	County	VARCHAR(255),
+--  	Rate FLOAT 
+-- 	);
+
+-- CREATE TABLE DIVERS (
+-- 	Location VARCHAR(255),
+-- 	FOREIGN KEY (Location) REFERENCES unemp(Location),
+-- 	State VARCHAR(255) ,
+-- 	County VARCHAR(255) , 
+-- 	Diver_index FLOAT,
+--  	Black FLOAT,
+--  	American FLOAT,
+-- 	Asian FLOAT,
+-- 	Hawaian FLOAT,
+-- 	Two_more_races FLOAT,
+-- 	Hispanic FLOAT,
+--  	White FLOAT
+--  );
+
+CREATE TABLE inco (
+		Location VARCHAR(255),
+		FOREIGN KEY (Location) REFERENCES unemp(Location),
+		State VARCHAR(255) ,
+		County VARCHAR(255), 
+		Population INT,
+		Median_household_income	FLOAT
+);

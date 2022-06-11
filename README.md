@@ -19,7 +19,7 @@ We were interested in the median income, diversity index and unemployment rate f
 
 <h3>Extract: </h3>
 
-•	Used Pandas functions in Jupyter Notebook to load all three CSV files. Store CSV files into DataFrame.
+Used Pandas functions in Jupyter Notebook to load all three CSV files. Store CSV files into DataFrame. To do this we read in the CSV files then put them into pandas dataframes.
 
 <h3>Transformation:</h3>
 
@@ -30,7 +30,7 @@ We were interested in the median income, diversity index and unemployment rate f
 
 <h3>Load:</h3>
 
-The last step was to transfer our final output into a Database. We created a database and respective table to match the columns from the final Panda's Data Frame using PostgreSQL to store our final dataframe. We chose PostgreSQL because originally we wanted to reference certain values across multiple tables. We later decided to merge the data in pandas before loading it, but we still kept using PostgreSQL in case we wanted to create multiple tables instead later.
+The last step was to transfer our final output into a Database. We created a database in PGadmin4 and respective table to match the columns from the final Panda's Data Frame using PostgreSQL create table command. We chose PostgreSQL because originally we wanted to reference certain values across multiple tables. We later decided to merge the data in pandas before loading it, but we still kept using PostgreSQL in case we wanted to create multiple tables instead later.
 
 <h3>Findings:</h3>
 

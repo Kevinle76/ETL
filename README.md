@@ -1,6 +1,9 @@
 # Project-2
 PROJECT 2: ETL
-TEAM 14: KHANH LE & LUKE CRABTREE
+
+TEAM 14: 
+
+KHANH LE & LUKE CRABTREE
 
 Background:
 We would like to know and understand about the median income and unemployment rate of each county of each state basing on data from different sources.

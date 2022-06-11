@@ -1,4 +1,3 @@
-
 -- CREATE TABLE unemp (
 --  	Location VARCHAR(255) PRIMARY KEY, 
 -- 	State VARCHAR(255) , 
@@ -20,8 +19,8 @@
 -- 	Hispanic FLOAT,
 --  	White FLOAT
 --  );
-
-CREATE TABLE inco (
+ 
+ CREATE TABLE inco (
 		Location VARCHAR(255),
 		FOREIGN KEY (Location) REFERENCES unemp(Location),
 		State VARCHAR(255) ,
@@ -29,3 +28,20 @@ CREATE TABLE inco (
 		Population INT,
 		Median_household_income	FLOAT
 );
+
+ CREATE TABLE countries (
+	state VARCHAR(255) ,
+	county VARCHAR(255) , 
+	unemp_rate FLOAT,
+	median_household_income	FLOAT,
+	population INT,
+	diver_index FLOAT,
+ 	black FLOAT,
+ 	american FLOAT,
+	asian FLOAT,
+	hawaian FLOAT,
+	two_more_races FLOAT,
+	hispanic FLOAT,
+ 	white FLOAT
+ );
+ 

@@ -16,7 +16,7 @@ Methods for Analysis:
 
 Data sets:
 1.	Unemployment from Kaggle.
-2.	Diversity  index from Kaggle.
+2.	Diversity  index from Kaggle: https://www.kaggle.com/datasets/mikejohnsonjr/us-counties-diversity-index
 3.	Median Income from Data World
 
 Extract: 

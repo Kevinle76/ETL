@@ -32,6 +32,10 @@ We were interested in the median income, diversity index and unemployment rate f
 
 The last step was to transfer our final output into a Database. We created a database and respective table to match the columns from the final Panda's Data Frame using PGadmin4 to store our final dataframe. We chose PGadmin4 because originally we wanted to reference certain values across multiple tables. We later decided to merge the data in pandas before loading it, but we still kept using PGadmin4 in case we wanted to create multiple tables instead later.
 
+<h3>Findings:</h3>
+
+
+
 <h3>References:</h3>
 
 <p>•	US Unemployment Rate by County, 1990-2016 | Kaggle </p>

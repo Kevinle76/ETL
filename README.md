@@ -34,7 +34,7 @@ The last step was to transfer our final output into a Database. We created a dat
 
 <h3>Findings:</h3>
 
-
+We were able to draw several useful conclusions using this data. The first is that on average, the median salary in northern states is higher than the median salary in southern states. We also found that state's diversity indexs have a large range, going from 0.10 to 0.73. Our final conclusion that we found is that states near the coasts tend to have higher unemployment rates than states in the middle of the country.
 
 <h3>References:</h3>
 

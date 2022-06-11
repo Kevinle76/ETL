@@ -19,7 +19,7 @@ We were interested in the median income, diversity index and unemployment rate f
 
 <h3>Extract: </h3>
 
-Used Pandas functions in Jupyter Notebook to load all three CSV files. Store CSV files into DataFrame. To do this we read in the CSV files then put them into pandas dataframes. The file 
+Used Pandas functions in Jupyter Notebook to load all three CSV files. Store CSV files into DataFrame. To do this we read in the CSV files then put them into pandas dataframes. The file ETL_Final.ipynb can be used in jupyter notebook to do this.
 
 <h3>Transformation:</h3>
 

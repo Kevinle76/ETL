@@ -32,7 +32,7 @@ Transformation:
 
 Load:
 
-The last step was to transfer our final output into a Database. We created a database and respective table to match the columns from the final Panda's Data Frame using PGadmin4 to store our original clean data sets. 
+The last step was to transfer our final output into a Database. We created a database and respective table to match the columns from the final Panda's Data Frame using PGadmin4 to store our final dataframe. We chose PGadmin4 because originally we wanted to reference certain values across multiple tables. We later decided to merge the data in pandas before loading it, but we still kept using PGadmin4 in case we wanted to create multiple tables instead later.
 
 References:
 

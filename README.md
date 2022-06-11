@@ -6,18 +6,18 @@ TEAM 14:
 KHANH LE & LUKE CRABTREE
 
 Background:
-We would like to know and understand about the median income and unemployment rate of each county of each state basing on data from different sources.
+We were interested in the median income, diversity index and unemployment rate for every United States county. To learn more, we gathered three different datasets to look at. We found one for diversity index, one for median income and one for unemployment rate.
 
 Methods for Analysis:
 
-1.	Utilized data sets from the Kaggle 
+1.	Utilized data sets from the Kaggle and Data World. 
 2.	Libraries utilized: pandas, sqlalchemy, pymysql.
 3.	Sorting and cleaning data
 
 Data sets:
-1.	Unemployment from Kaggle.
+1.	Unemployment from Kaggle: https://www.kaggle.com/code/alshan/mapping-us-household-income
 2.	Diversity  index from Kaggle: https://www.kaggle.com/datasets/mikejohnsonjr/us-counties-diversity-index
-3.	Median Income from Data World
+3.	Median Income from Data World: https://data.world/tylerudite/2015-median-income-by-county
 
 Extract: 
 
@@ -26,7 +26,7 @@ Extract:
 Transformation:
 
 •	Reviewed the files and transformed into data frames
-•	Removed the column due to missing information which was not relevant.
+•	Removed the column due to missing information and relevancy.
 •	Identified duplicates by doing an inner merge on the incident id column across all three data sets.
 •	Created queries by grouping the data by state.
 

@@ -30,17 +30,12 @@ We were interested in the median income, diversity index and unemployment rate f
 
 <h3>Load:</h3>
 
-The last step was to transfer our final output into a Database. We created a database and respective table to match the columns from the final Panda's Data Frame using PGadmin4 to store our final dataframe. We chose PGadmin4 because originally we wanted to reference certain values across multiple tables. We later decided to merge the data in pandas before loading it, but we still kept using PGadmin4 in case we wanted to create multiple tables instead later.
+The last step was to transfer our final output into a Database. We created a database and respective table to match the columns from the final Panda's Data Frame using PostgreSQL to store our final dataframe. We chose PostgreSQL because originally we wanted to reference certain values across multiple tables. We later decided to merge the data in pandas before loading it, but we still kept using PostgreSQL in case we wanted to create multiple tables instead later.
 
 <h3>Findings:</h3>
 
 We were able to draw several useful conclusions using this data. The first is that on average, the median salary in northern states is higher than the median salary in southern states. We also found that state's diversity indexs have a large range, going from 0.10 to 0.73. Our final conclusion that we found is that states near the coasts tend to have higher unemployment rates than states in the middle of the country.
 
-<h3>References:</h3>
-
-<p>•	US Unemployment Rate by County, 1990-2016 | Kaggle </p>
-<p>•	Diversity Index of US counties | Kaggle </p>
-<p>•	tylerudite/2015-median-income-by-county | Workspace | data.world </p>
 
 
 

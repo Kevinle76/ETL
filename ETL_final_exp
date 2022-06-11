@@ -1,1 +1,3 @@
-SELECT * FROM countries where State = 'MI';
+--  SELECT * FROM country where State = 'WI';
+--  SELECT * FROM country where State = 'CA';
+ SELECT * FROM country where State = 'WI';

@@ -13,7 +13,3 @@ CREATE TABLE country (
 	hispanic FLOAT,
  	white FLOAT
  );
-
- SELECT * FROM country where State = 'MI';
- SELECT * FROM country where State = 'CA';
- SELECT * FROM country where State = 'WI';

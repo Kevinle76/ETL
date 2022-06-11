@@ -1,44 +1,46 @@
-# Project-2
-PROJECT 2: ETL
+<h1>PROJECT 2: ETL</h1>
 
-TEAM 14: 
-
+<h3>TEAM 14: </h3>
 KHANH LE & LUKE CRABTREE
 
-Background:
-We would like to know and understand about the median income and unemployment rate of each county of each state basing on data from different sources.
+<h3>Background:</h3>
+We were interested in the median income, diversity index and unemployment rate for every United States county. To learn more, we gathered three different datasets to look at. We found one for diversity index, one for median income and one for unemployment rate.
 
-Methods for Analysis:
+<h3>Methods for Analysis:</h3>
 
-1.	Utilized data sets from the Kaggle 
-2.	Libraries utilized: pandas, sqlalchemy, pymysql.
-3.	Sorting and cleaning data
+<p>1.	Utilized data sets from the Kaggle and Data World. </p>
+<p>2.	Libraries utilized: pandas, sqlalchemy, pymysql.</p>
+<p>3.	Sorting and cleaning data. </p>
 
-Data sets:
-1.	Unemployment from Kaggle.
-2.	Diversity  index from Kaggle: https://www.kaggle.com/datasets/mikejohnsonjr/us-counties-diversity-index
-3.	Median Income from Data World
+<h3>Data sets:</h3>
+<p>1.	Unemployment from Kaggle: https://www.kaggle.com/code/alshan/mapping-us-household-income </p>
+<p>2.	Diversity  index from Kaggle: https://www.kaggle.com/datasets/mikejohnsonjr/us-counties-diversity-index </p>
+<p>3.	Median Income from Data World: https://data.world/tylerudite/2015-median-income-by-county </p>
 
-Extract: 
+<h3>Extract: </h3>
 
 •	Used Pandas functions in Jupyter Notebook to load all three CSV files. Store CSV files into DataFrame.
 
-Transformation:
+<h3>Transformation:</h3>
 
-•	Reviewed the files and transformed into data frames
-•	Removed the column due to missing information which was not relevant.
-•	Identified duplicates by doing an inner merge on the incident id column across all three data sets.
-•	Created queries by grouping the data by state.
+<p>•	Reviewed the files and transformed into data frames.</p>
+<p>•	Removed the column due to missing information and relevancy.</p>
+<p>•	Identified duplicates by doing an inner merge on the incident id column across all three data sets.</p>
+<p>•	Created queries by grouping the data by state.</p>
 
-Load:
+<h3>Load:</h3>
 
-The last step was to transfer our final output into a Database. We created a database and respective table to match the columns from the final Panda's Data Frame using PGadmin4 to store our original clean data sets. 
+The last step was to transfer our final output into a Database. We created a database and respective table to match the columns from the final Panda's Data Frame using PGadmin4 to store our final dataframe. We chose PGadmin4 because originally we wanted to reference certain values across multiple tables. We later decided to merge the data in pandas before loading it, but we still kept using PGadmin4 in case we wanted to create multiple tables instead later.
 
-References:
+<h3>Findings:</h3>
 
-•	US Unemployment Rate by County, 1990-2016 | Kaggle
-•	Diversity Index of US counties | Kaggle
-•	tylerudite/2015-median-income-by-county | Workspace | data.world
+We were able to draw several useful conclusions using this data. The first is that on average, the median salary in northern states is higher than the median salary in southern states. We also found that state's diversity indexs have a large range, going from 0.10 to 0.73. Our final conclusion that we found is that states near the coasts tend to have higher unemployment rates than states in the middle of the country.
+
+<h3>References:</h3>
+
+<p>•	US Unemployment Rate by County, 1990-2016 | Kaggle </p>
+<p>•	Diversity Index of US counties | Kaggle </p>
+<p>•	tylerudite/2015-median-income-by-county | Workspace | data.world </p>
 
 
 

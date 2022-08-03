@@ -1,4 +1,4 @@
-<h1>PROJECT 2: ETL</h1>
+<h1> ETL</h1>
 
 <h3>TEAM 14: </h3>
 KHANH LE & LUKE CRABTREE
